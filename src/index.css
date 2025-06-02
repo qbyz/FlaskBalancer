@@ -1,0 +1,124 @@
+body {
+    background-color: white;
+    color: #222;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+body.dark {
+    background-color: #121212;
+    color: #eee;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: sans-serif;
+}
+
+.title {
+    font-family: sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.box {
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+}
+
+.input {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+.dark .darkButton {
+    background-color: #363636;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.button {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    background-color: #5acd65;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.button:hover {
+    background-color: #3d8f57;
+}
+
+.subtitle {
+    font-family: sans-serif;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.error {
+    font-family: sans-serif;
+    color: red;
+    margin-top: 10px;
+}
+
+.results {
+    font-family: sans-serif;
+    margin-top: 30px;
+}
+
+.dark .container {
+    background-color: #121212;
+    color: #eee;
+}
+
+.dark .box {
+    background-color: #1e1e1e;
+    border-color: #444;
+}
+
+.dark .input {
+    font-family: sans-serif;
+    background-color: #333;
+    color: #eee;
+    border: 1px solid #555;
+}
+
+.dark .button {
+    font-family: sans-serif;
+    background-color: #5a4eb5;
+    color: white;
+}
+
+.dark .button:hover {
+    background-color: #463d91;
+}
+
+.dark .error {
+    font-family: sans-serif;
+    color: #ff6b6b;
+}
+
+.darkButton {
+    background-color: #e3e3e3;
+    color: #000000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
