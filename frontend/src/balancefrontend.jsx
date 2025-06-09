@@ -26,7 +26,7 @@ export default function BalanceFrontend() {
         setResult(null);
 
         try {
-            const response = await fetch('flaskbalancer.onrender.com/balance', {
+            const response = await fetch('https://flaskbalancer.onrender.com/balance', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({ equation, isRace: false })
