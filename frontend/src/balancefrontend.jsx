@@ -34,7 +34,6 @@ export default function BalanceFrontend() {
 
             if (!response.ok) {
                 const errorData = await response.json();
-                throw new Error(errorData.error || 'Failed to fetch');
             }
 
             const data = await response.json();
