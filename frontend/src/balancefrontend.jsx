@@ -51,7 +51,7 @@ export default function BalanceFrontend() {
     return (
         <div className={darkMode ? 'dark' : ''}>
             <button className='darkButton' onClick={() => setDarkMode(!darkMode)} /* styling */>
-                {darkMode ? '☀️' : '🌙'}
+                {darkMode ? '☀️' : '🌑'}
             </button>
 
 
