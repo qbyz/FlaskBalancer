@@ -92,7 +92,7 @@ body.dark {
 .dark .box {
     background-color: #1e1e1e;
     border-color: #444;
-    border: 2px solid #ccc;
+    border: 2px solid
     border-radius: 10px;
     padding: 20px;
     margin-bottom: 20px;
